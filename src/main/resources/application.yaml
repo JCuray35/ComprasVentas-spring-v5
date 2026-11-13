@@ -1,0 +1,15 @@
+server:
+  port: 9500
+spring:
+  application:
+    name: ComprasVentas
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/compras_ventas_v5
+    username: postgres
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
